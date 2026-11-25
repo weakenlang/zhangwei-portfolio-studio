@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="张伟｜11 年游戏制作人 / 主策划作品集：涵盖海外 0→1 制作、千万新增国内小游戏、存量长线重构及双亿级流水爆款项目档案。"
+    />
+    <meta name="theme-color" content="#0a0d14" />
+    <title>张伟｜游戏制作人 &amp; 主策划作品档案库</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到正文</a>
+
+    <header class="topbar" id="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="#hero" aria-label="返回顶部">
+          <span class="brand-badge">ZW</span>
+          <span class="brand-text">
+            <strong>张伟</strong>
+            <small>休闲游戏制作人 · 主策划</small>
+          </span>
+        </a>
+
+        <nav class="nav-links" id="nav-links" aria-label="主导航">
+          <a href="#flagships" data-section="flagships">旗舰拆解</a>
+          <a href="#archive" data-section="archive">19 项目档案</a>
+          <a href="#insights" data-section="insights">实战洞察</a>
+          <a href="#timeline" data-section="timeline">职业路径</a>
+          <a href="#contact" data-section="contact">联系合作</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <button
+            class="btn-copy-chip"
+            type="button"
+            data-copy="1025652722@qq.com"
+            data-copy-label="邮箱"
+          >
+            <span class="dot-live" aria-hidden="true"></span>
+            <span>复制邮箱</span>
+          </button>
+          <button
+            class="mobile-menu-btn"
+            id="mobile-menu-btn"
+            type="button"
+            aria-label="打开菜单"
+            aria-expanded="false"
+            aria-controls="nav-links"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- HERO INTERACTIVE STAGE -->
+      <section class="hero-section" id="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <div class="status-pill">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>11 年游戏研发 · 成都可到岗</span>
+            </div>
+            <h1>
+              从数值架构出发，<br />
+              把玩法做成<span class="text-amber">跑得通的商业产品</span>
+            </h1>
+            <p class="hero-desc">
+              历任 SLG/战棋数值、休闲主策划至制作人。既能带 10 人跨职能团队完成海外休闲 0→1 首测交付与 300 万预算管控，也主导过国内小游戏单月 1,200 万新增放量与双亿级流水长线产品。
+            </p>
+
+            <div class="hero-stats" aria-label="核心履历指标">
+              <div class="stat-box">
+                <strong class="num-amber">3 亿+</strong>
+                <span>两款爆款累计流水</span>
+              </div>
+              <div class="stat-box">
+                <strong class="num-emerald">1,200 万</strong>
+                <span>小游戏单月新增峰值</span>
+              </div>
+              <div class="stat-box">
+                <strong>19+</strong>
+                <span>海内外上线与快测项目</span>
+              </div>
+              <div class="stat-box">
+                <strong>10–15 人</strong>
+                <span>跨职能团队统筹经验</span>
+              </div>
+            </div>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#flagships">拆解 5 大代表作</a>
+              <a class="btn btn-secondary" href="#archive">检索全部 19 个项目</a>
+            </div>
+          </div>
+
+          <div class="hero-right" aria-label="代表项目实机互动展台">
+            <div class="stage-frame">
+              <div class="stage-header">
+                <span class="stage-tag" id="hero-stage-tag">海外休闲 · 制作人 · 0→1 首测交付</span>
+                <span class="stage-company" id="hero-stage-company">卓瀚科技 · 2026.04–2026.11</span>
+              </div>
+
+              <div class="stage-body">
+                <div class="phone-mockup">
+                  <div class="phone-notch" aria-hidden="true"></div>
+                  <img
+                    id="hero-stage-img"
+                    src="assets/capy-spin.webp"
+                    alt="CaptainCapy 游戏实机画面"
+                  />
+                </div>
+
+                <div class="stage-info">
+                  <h2 id="hero-stage-title">CaptainCapy</h2>
+                  <div class="stage-kpis" id="hero-stage-kpis"></div>
+                  <div class="stage-decision">
+                    <span class="decision-label">制作人关键决策</span>
+                    <p id="hero-stage-decision"></p>
+                  </div>
+                  <a class="stage-jump" id="hero-stage-jump" href="#flagships">查看完整拆解</a>
+                </div>
+              </div>
+
+              <div class="stage-switcher" role="tablist" aria-label="切换代表作预览">
+                <button class="switch-pill is-active" type="button" data-hero-id="captaincapy" role="tab" aria-selected="true">CaptainCapy</button>
+                <button class="switch-pill" type="button" data-hero-id="guanguan" role="tab" aria-selected="false">关关难不住</button>
+                <button class="switch-pill" type="button" data-hero-id="slime" role="tab" aria-selected="false">合合合英雄</button>
+                <button class="switch-pill" type="button" data-hero-id="mrbone" role="tab" aria-selected="false">六号特工</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 1: FLAGSHIP DEEP DIVES -->
+      <section class="section" id="flagships">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">核心战绩深度拆解</span>
+              <h2>五大旗舰项目：难题、决策与真实数据</h2>
+            </div>
+            <p class="section-sub">
+              不堆砌空泛形容词。每一款代表作均还原立项约束、核心取舍、可核验的统计口径与一线复盘。
+            </p>
+          </div>
+
+          <div class="flagship-tabs" id="flagship-tabs" role="tablist" aria-label="选择旗舰项目"></div>
+
+          <div class="flagship-panel" id="flagship-panel" role="tabpanel">
+            <!-- Rendered by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: FULL 19-PROJECT ARCHIVE -->
+      <section class="section section-alt" id="archive">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">全量研发档案库</span>
+              <h2>19 个实战项目矩阵（2016–2026）</h2>
+            </div>
+            <p class="section-sub">
+              除 5 款商业及 0→1 代表作外，完整收录海外快测止损原型、国内小游戏及早期 SLG/战棋作品。点击任意卡片可查看完整项目档案。
+            </p>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group" role="group" aria-label="按项目类型筛选">
+              <button class="filter-chip is-active" type="button" data-cat="all">全部项目 (19)</button>
+              <button class="filter-chip" type="button" data-cat="flagship">商业代表作</button>
+              <button class="filter-chip" type="button" data-cat="prototype">海外原型验证</button>
+              <button class="filter-chip" type="button" data-cat="minigame">国内小游戏</button>
+              <button class="filter-chip" type="button" data-cat="slg">SLG 与战棋</button>
+            </div>
+
+            <div class="filter-right">
+              <label class="company-select-wrap">
+                <span class="sr-only">按公司筛选</span>
+                <select id="company-filter" aria-label="按公司筛选">
+                  <option value="all">全部公司（6 家）</option>
+                  <option value="卓瀚科技">卓瀚科技（2026）</option>
+                  <option value="掌游天下">掌游天下（2025–2026）</option>
+                  <option value="孚谦科技">孚谦科技（2024–2025）</option>
+                  <option value="余香科技">余香科技（2019–2023）</option>
+                  <option value="麦驰网络">麦驰网络（2017–2019）</option>
+                  <option value="多益网络">多益网络（2016–2017）</option>
+                </select>
+              </label>
+              <span class="archive-count" id="archive-count">当前显示 19 / 19 项</span>
+            </div>
+          </div>
+
+          <div class="archive-grid" id="archive-grid">
+            <!-- Rendered by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: FIELD INSIGHTS -->
+      <section class="section" id="insights">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">一线复盘沉淀</span>
+              <h2>用真金白银买量验证出的 4 条制作法则</h2>
+            </div>
+            <p class="section-sub">
+              围绕留存节奏、广告变现、海外买量验证与存量调优沉淀的核心产品判断。
+            </p>
+          </div>
+
+          <div class="insights-grid" id="insights-grid">
+            <!-- Rendered by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: CAREER TIMELINE -->
+      <section class="section section-alt" id="timeline">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">11 年研发履历</span>
+              <h2>从数值专家到 10 人团队制作人</h2>
+            </div>
+            <p class="section-sub">
+              岗位从单点数值设计逐步扩展到玩法立项、海外快测、小游戏放量与全盘预算交付，每一步都建立在前一站的数据底座之上。
+            </p>
+          </div>
+
+          <div class="timeline-grid" id="timeline-grid">
+            <!-- Rendered by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: CONTACT -->
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-left">
+              <span class="section-kicker">下一步沟通</span>
+              <h2>期待加入看重数据验证与产品交付的团队</h2>
+              <p>
+                目标岗位：<strong>休闲游戏制作人 / 主策划</strong>（成都本地优先，随时可到岗）。欢迎沟通休闲立项思路、商业化模型拆解与跨职能团队交付经验。
+              </p>
+              <div class="contact-meta">
+                <span>教育背景：海南大学 · 本科 · 应用化学（2010–2014）</span>
+                <span>工具链：Excel / VBA / Python · SQL · Google Play Console · AI 研发管线</span>
+              </div>
+            </div>
+
+            <div class="contact-right">
+              <div class="contact-item">
+                <span class="contact-label">联系电话</span>
+                <div class="contact-value-row">
+                  <a href="tel:13066330039" class="contact-link">130-6633-0039</a>
+                  <button
+                    class="btn-copy-inline"
+                    type="button"
+                    data-copy="13066330039"
+                    data-copy-label="手机号"
+                  >
+                    复制
+                  </button>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">电子邮箱</span>
+                <div class="contact-value-row">
+                  <a href="mailto:1025652722@qq.com" class="contact-link">1025652722@qq.com</a>
+                  <button
+                    class="btn-copy-inline"
+                    type="button"
+                    data-copy="1025652722@qq.com"
+                    data-copy-label="邮箱"
+                  >
+                    复制
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 张伟 · 游戏制作人 / 主策划作品档案</p>
+        <p>项目数据已按公开或脱敏口径整理，仅作个人求职交流展示。</p>
+        <a href="#hero">回到顶部 ↑</a>
+      </div>
+    </footer>
+
+    <!-- PROJECT DETAIL MODAL -->
+    <div class="modal-backdrop" id="project-modal" hidden aria-hidden="true">
+      <div
+        class="modal-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button class="modal-close" id="modal-close" type="button" aria-label="关闭项目详情">
+          ✕
+        </button>
+        <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- IMAGE LIGHTBOX -->
+    <div class="lightbox-backdrop" id="lightbox" hidden aria-hidden="true">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="关闭大图">
+        ✕
+      </button>
+      <figure class="lightbox-figure">
+        <img id="lightbox-img" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+    </div>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
